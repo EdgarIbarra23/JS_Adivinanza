@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinanza</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Adivina el Número del 1 al 10</h1>
+    <h2>Por: Fercho CodeG</h2>
+
+    <div class="contens">
+        <input type="text" name="riddle" id="riddle" class="riddle">
+
+        <br>
+        <input class="confirmar" type="button" value="Confirmar" onclick="riddleNumber()">
+
+        <input class="reset" type="button" 
+        value="Repetir Juego" onclick="reset()">
+
+        <br>
+        <p id="comments"></p>
+        <p id="attempts"></p>
+    </div>
+</body>
+    <script src="./js/index.js"></script>
+</html>

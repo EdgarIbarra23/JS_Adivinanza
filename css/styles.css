@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contens{
+    background-color:antiquewhite;
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px 15px; 
+}
+
+input[type='text'] {
+    border: 2px solid gray;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+input[type='button']{
+    margin: 20px 20px 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+
+.confirmar:hover {
+    background-color: green;
+    border-color: green;
+    transform: translateY(-5px);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 10px greenyellow;
+}
+
+.reset:hover{
+    background-color: aqua;
+    border-color: aqua;
+    transform: translateY(-5px);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 10px blue;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
