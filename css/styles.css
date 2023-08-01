@@ -11,10 +11,10 @@ h2 {
 .contens{
     background-color:antiquewhite;
     border-radius: 10px;
-    width: 400px;
+    width: 340px;
     margin: 10px auto;
     text-align: center;
-    padding: 20px 15px; 
+    padding: 20px 0px;
 }
 
 input[type='text'] {
